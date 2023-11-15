@@ -1,82 +1,123 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Squash Company",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
+    "primary": "#7526D8",
+    "light": "#905CFF",
     "dark": "#0D001D",
     "background": {
-      "dark": "#090014"
+      "dark": "#0E011D"
     },
-    "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
+    "anchors": {  
+      "from": "#268ED8",
+      "to": "#7526D8"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Suporte",
+      "url": "company/support"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://squashcodes.com/dashboard"
   },
-  "tabs": [
+  "tabs": [ 
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Artigos",
+      "url": "articles"
+    },
+    {
+      "name": "FAQs",
+      "url": "faqs"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Acesse nosso website",
+      "icon": "globe",
+      "url": "https://squashcodes.com"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Entre em nosso Discord",
+      "icon": "discord",
+      "url": "https://discord.squashcodes.com"
     },
     {
-      "name": "Blog",
+      "name": "Confira nossos Artigos",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "articles"
+    },
+    {
+      "name": "Siga-nos no Instagram",
+      "icon": "instagram",
+      "url": "https://instagram.com/squashcodes"
+    },
+    {
+      "name": "Siga-nos no Youtube",
+      "icon": "youtube",
+      "url": "https://youtube.com/SquashCodes"
+    },
+    {
+      "name": "Siga-nos no Twitter",
+      "icon": "twitter",
+      "url": "https://twitter.com/SquashCodes"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction"]
     },
     {
       "group": "Essentials",
       "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "group": "Artigos e Notícias",
+      "pages": ["articles/introduction", "articles/last"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Artigos mais recentes",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "articles/november-2023/teleatendimento"
       ]
+    },
+    {
+      "group": "Artigos em destaque",
+      "pages": [
+        "articles/november-2023/teleatendimento"
+      ]
+    },
+    {
+      "group": "Novembro 2023",
+      "pages": [
+        "articles/november-2023/teleatendimento"
+      ]
+    },
+    {
+      "group": "Empresa",
+      "pages": ["company/brand", "company/legal", "company/support"]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "website": "https://squashcodes.com",
+    "discord": "https://discord.gg/2YjyjJZ",
+    "instagram": "https://instagram.com/squashcodes",
+    "youtube": "https://youtube.com/squashcodes",
+    "twitter": "https://twitter.com/squashcodes",
+    "github": "https://github.com/squashcodes",
+    "linkedin": "https://www.linkedin.com/company/squashcodes"
+  },
+  "feedback": {
+    "raiseIssue": true,
+    "suggestEdit": true,
+    "thumbsRating": true
   }
 }
